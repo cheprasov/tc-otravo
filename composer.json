@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {"TC\\Otravo\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": { "Test\\": "tests/" }
+  },
+  "require": {
+      "phpunit/phpunit": "^6.5"
+  }
+}

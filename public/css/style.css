@@ -1,0 +1,38 @@
+
+body {
+    padding: 20px;
+    font: 90% Arial;
+}
+
+.date-filter {
+    font-size: 110%;
+}
+.date-filter input {
+    font-size: 120%;
+    height: 30px;
+    margin: 10px;
+}
+.date-filter input[type=button] {
+    border-radius: 5px;
+    border: 0 none;
+    background-color: #0074D9;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: #d9e8ff;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+table td {
+    padding: 10px 20px;
+}
+table tr:nth-child(odd) {
+    background-color: #f3f6ff;
+}
